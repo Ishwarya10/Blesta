@@ -78,7 +78,7 @@ public function foo() {
 
 	   	if($this->action != 'edit')
 	   	{
-	   		  $this->requireLogin($this->base_uri . 'plugin/service_management/client_main/edit/');
+	   		  $this->requireLogin($this->base_uri . 'plugin/service_management/live_answering/edit/');
 	   	}
 
     }
